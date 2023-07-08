@@ -1,0 +1,70 @@
+/* header{
+    height: 500px;
+    width: 100%;
+} */
+.banner{
+    background-image: url(images/banner/banner1.png);
+    width: 100%;
+    height: 800px;
+}
+.banner-text {
+    text-align: right;
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 901px;
+    padding-top: 237px;
+  }
+
+  button {
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    text-align: center;
+  }
+
+  /* about */
+
+  .about img{
+        width: 300px;
+        height: auto;
+      
+  }
+
+  main{
+    margin: 0 200px 0;
+    /* background-color: beige; */
+  }
+  .about{
+    display: flex;
+    justify-content: space-around;
+    gap: 180px;
+    margin-top: 60px;
+    
+  }
+
+  .about-text{
+    padding-top: 110px;
+  }
+  /* main{
+    width: 1054px;
+    background-color: beige;
+    margin-left: 229px;
+    margin-top: 420px;
+  } */
+
+  .plan{
+    padding-top: 80px;
+  }
+  .plan h1{
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    }
+
+    .plan>.skills{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 75px;
+    }
